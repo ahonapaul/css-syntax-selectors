@@ -1,26 +1,42 @@
 body {
-  color:black;
+  color:antiquewhite;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
   color:darkmagenta;
+  width: fit-content;
+  text-decoration: underline;
   background-color:bisque;
-  ;
+  position: relative;
+  margin-left: 30vw;
+  animation: movetext 2s;
+
+}
+
+@keyframes movetext{
+  from {margin-left: 0px;}
+  to {margin-left: 30vw;}
 }
 
 .quote {
-  color:darkslategray;
+  color:cadetblue;
 }
 
 .quote.narrator {
   color:cadetblue;
   background-color: bisque;
+  opacity: 0.6;
 }
 
 #intro p {
-  color:darkslategray;
+  color:antiquewhite;
 }
 
 .super-important-omg {
   background-color: bisque;
+  color:darkmagenta;
+  font-size: 50px;
+  margin-top: 50px;
 }
