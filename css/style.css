@@ -1,24 +1,26 @@
 body {
-  color: brown;
+  color:black;
 }
 
 h1 {
-  color: red;
+  color:darkmagenta;
+  background-color:bisque;
+  ;
 }
 
 .quote {
-  color: gray;
+  color:darkslategray;
 }
 
 .quote.narrator {
-  color: black;
+  color:cadetblue;
+  background-color: bisque;
 }
 
 #intro p {
-  color: green;
+  color:darkslategray;
 }
 
 .super-important-omg {
-  font-size: 20px;
-  background-color: yellow;
+  background-color: bisque;
 }
